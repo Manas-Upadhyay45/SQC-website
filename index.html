@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SQC - NIT Jalandhar</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0f0f0f;
+            color: #eaeaea;
+        }
+
+        header {
+            background: linear-gradient(to right, #000000, #1a1a1a);
+            color: #00c6ff;
+            padding: 45px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #cfcfcf;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .section {
+            background-color: #1b1b1b;
+            padding: 35px;
+            margin-bottom: 35px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+        }
+
+        .section h2 {
+            color: #00c6ff;
+            margin-bottom: 15px;
+            font-size: 30px;
+            border-bottom: 2px solid #00c6ff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .section p, .section li {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #dddddd;
+        }
+
+        .image-box {
+            width: 100%;
+            height: 320px;
+            background-color: #2a2a2a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+
+        .image-box img {
+            max-height: 100%;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact button {
+            background-color: #00c6ff;
+            color: black;
+            font-size: 18px;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .contact button:hover {
+            background-color: #00a3d9;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: black;
+            color: #aaaaaa;
+            text-align: center;
+            padding: 18px;
+            font-size: 14px;
+        }
+        .form-group {
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #bbbbbb;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #00c6ff;
+}
+
+textarea {
+    resize: none;
+}
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Super Quant Computing (SQC)</h1>
+    <p>Dr. B. R. Ambedkar National Institute of Technology, Jalandhar</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>About SQC</h2>
+        <p>
+            Super Quant Computing (SQC) is a student-driven technical and quality-focused
+            initiative at NIT Jalandhar. It promotes excellence in advanced computing,
+            innovation, and quality management.
+        </p>
+        <p>
+            The club provides a collaborative platform for students to work on real-world
+            problems, research ideas, and emerging technologies.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Founder</h2>
+        <p>
+            Super Quant Computing was founded under the guidance of dedicated faculty
+            members of NIT Jalandhar with the vision of developing a strong culture of
+            quality and advanced computing among students.
+        </p>
+        <p>
+            The founders aimed to bridge the gap between theoretical knowledge and
+            practical industry applications.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Aim of SQC</h2>
+        <ul>
+            <li>To enhance technical and analytical skills of students</li>
+            <li>To promote quality tools and continuous improvement</li>
+            <li>To encourage innovation and research mindset</li>
+            <li>To prepare students for industry and academic challenges</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Project Gallery</h2>
+        <div class="image-box">
+            <img src="chi chi.jpg" alt="SQC Project Image">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Core Activities</h2>
+        <ul>
+            <li>Technical workshops and seminars</li>
+            <li>Quality improvement projects</li>
+            <li>Research discussions</li>
+            <li>Inter-college competitions</li>
+            <li>Industry exposure sessions</li>
+        </ul>
+    </div>
+
+    <div class="section contact">
+    <h2>Send Your Details to SQC</h2>
+    <p>Fill the form below to connect with Super Quant Computing</p>
+
+    <form action="mailto:sqc@nitj.ac.in" method="POST" enctype="text/plain">
+
+        <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="Name" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" name="Email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Roll Number</label>
+            <input type="number" name="Roll Number">
+        </div>
+
+        <div class="form-group">
+            <label>Department</label>
+            <input type="text" name="Department">
+        </div>
+
+        <div class="form-group">
+            <label>Message</label>
+            <textarea name="Message" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Send Details to SQC</button>
+    </form>
+</div>
+
+
+</div>
+
+<footer>
+    © 2026 Super Quant Computing | NIT Jalandhar
+</footer>
+
+</body>
+</html>
