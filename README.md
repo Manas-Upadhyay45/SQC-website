@@ -18,3 +18,12 @@ The goal of this project is to:
 
 > No external frameworks are required. The project is lightweight and beginner-friendly.
 
+## Author
+
+- **Name - Manas Upadhyay**
+- college - NIT Jalandhar
+### Skills of author
+-Made a project for face recognition using Maching Learning
+-currently working of another ML project
+## Thanks to SQC
+-SQC have given us a chance to make a website and upgrade my skills. This induction have been very useful for me as it teaches me about HTML,CSS,JS and GitHub.
