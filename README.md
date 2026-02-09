@@ -18,4 +18,3 @@ The goal of this project is to:
 
 > No external frameworks are required. The project is lightweight and beginner-friendly.
 
-## 📂 Project Structure
